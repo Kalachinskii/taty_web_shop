@@ -1,0 +1,145 @@
+.container {
+    width: 100%;
+    background-color: var(--baground-navbar-color);
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    width: 90%;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10px 15px 10px;
+    border-bottom: 2px solid var(--primary-hover-color);
+}
+
+.info {
+    min-width: 373px;
+}
+.styles.logo {
+    min-width: 186px;
+}
+.userInterface {
+    min-width: 373px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    /* width: 28px;
+    height: 28px; */
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: var(--primary-hover-color);
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+.link:hover {
+    color: var(--primary-hover-color);
+}
+
+.namber {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.mail {
+    display: flex;
+    gap: 15px;
+}
+
+.userInterface {
+    display: flex;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.cardGrup {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card {
+    position: relative;
+}
+
+.cardCount {
+    position: absolute;
+    background-color: var(--primary-hover-color);
+    padding: 0px 15px;
+    top: 120%;
+    right: -25%;
+}
+/* bot */
+.buttom {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 10px 15px 10px;
+    border-top: 2px solid var(--baground-button-color);
+    align-items: center;
+}
+
+.botLinks {
+    min-width: 560px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoryList {
+    min-width: 142px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.search {
+    min-width: 530px;
+    min-height: 44px;
+    background-color: var(--baground-navbar-color);
+    border: 1px solid var(--baground-button-color);
+    padding: 20px 0 20px 11%;
+    color: #fff;
+}
+
+.search:focus {
+    border: 1px solid var(--primary-hover-color);
+    outline: none;
+}
+
+.boxSearch {
+    position: relative;
+}
+
+.glass {
+    position: absolute;
+    top: 32%;
+    left: 4%;
+}
