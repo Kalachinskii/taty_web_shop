@@ -1,3 +1,4 @@
+import { TopCarousel } from "../TopCarousel/TopCarousel";
 import styles from "./App.module.css";
 
 export function App() {
@@ -90,6 +91,7 @@ export function App() {
                     </div>
                 </nav>
             </div>
+            <TopCarousel />
         </>
     );
 }
