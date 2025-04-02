@@ -1,0 +1,93 @@
+.container {
+    width: 100%;
+    background-color: var(--baground-navbar-color);
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.footer {
+    color: var(--text-color);
+    width: 90%;
+    display: flex;
+}
+
+.leftBox {
+    width: 50%;
+    display: flex;
+    gap: 30px;
+    height: 75%;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid var(--baground-button-color);
+}
+
+.logoBox {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    gap: 9px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 100%;
+}
+
+.link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.link:hover {
+    color: var(--primary-hover-color);
+}
+
+.linkIcon {
+    color: var(--baground-button-color);
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid var(--baground-button-color);
+    padding: 5px 7px;
+}
+
+.linkIcon:hover {
+    color: var(--primary-hover-color);
+    border: 1px solid var(--primary-hover-color);
+}
+
+.rightBox {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    /* justify-content: center; */
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 50px;
+    border-left: 1px solid var(--primary-hover-color);
+}
+
+.centerBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mailBox {
+    display: flex;
+    gap: 10px;
+}
+
+.linksBox {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

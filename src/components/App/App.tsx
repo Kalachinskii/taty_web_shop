@@ -1,3 +1,4 @@
+import { Footer } from "../Footer/Footer";
 import { TopCarousel } from "../TopCarousel/TopCarousel";
 import styles from "./App.module.css";
 
@@ -26,10 +27,6 @@ export function App() {
                                 </a>
                             </div>
                         </div>
-                        {/* <div className={styles.mail}>
-                            <img src="/img/icon/Union.svg" alt="" />
-                            <p>Mr.Driskell@mail.com</p>
-                        </div> */}
                         <div className={styles.logo}>
                             <img src="/img/logo.svg" alt="" />
                         </div>
@@ -92,6 +89,7 @@ export function App() {
                 </nav>
             </div>
             <TopCarousel />
+            <Footer />
         </>
     );
 }
