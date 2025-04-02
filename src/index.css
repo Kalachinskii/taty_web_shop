@@ -2,7 +2,14 @@
     --text-color: #ffffff;
     --primary-hover-color: #bb8c5f;
     --baground-button-color: #524336;
-    --baground-navbar-color: #050402;
+    --background-navbar-color: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 1) 5%,
+        rgba(12, 10, 10, 1) 30%,
+        rgba(18, 16, 14, 1) 70%,
+        rgba(10, 5, 7, 1) 95%
+    );
+
     --baground-color: #eeeeee;
     --baground-card-color: #ffffff;
 }
