@@ -1,3 +1,4 @@
+import { Button } from "../Button/Button";
 import styles from "./TopCarousel.module.css";
 
 export function TopCarousel() {
@@ -12,9 +13,7 @@ export function TopCarousel() {
                         Оборудование и расходники <br /> для самых ярких
                         и качественных работ
                     </p>
-                    <a href="#" className={styles.btn}>
-                        Смотреть каталог
-                    </a>
+                    <Button>Смотреть каталог</Button>
                 </div>
             </div>
         </div>
