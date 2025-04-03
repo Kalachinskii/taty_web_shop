@@ -64,3 +64,7 @@
     font-size: 22px;
     color: var(--primary-hover-color);
 }
+
+.openHitBox {
+    margin-top: 30px;
+}

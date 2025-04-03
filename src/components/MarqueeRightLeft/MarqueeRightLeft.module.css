@@ -1,0 +1,31 @@
+.Marquee {
+    margin: 150px 0 0 0;
+    border-top: 1px solid var(--baground-button-color);
+    width: 100%;
+    overflow: hidden;
+}
+
+.box {
+    display: flex;
+    width: 200%;
+    animation: marquee-animation 12s 0.5s linear infinite;
+}
+
+.imgBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .img {
+    width: 20%;
+} */
+
+@keyframes marquee-animation {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
