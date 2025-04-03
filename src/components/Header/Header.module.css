@@ -1,11 +1,3 @@
-.container {
-    width: 100%;
-    background: var(--background-navbar-color);
-    /* background-color: var(--baground-navbar-color); */
-    display: flex;
-    justify-content: center;
-}
-
 .navbar {
     width: 90%;
     color: var(--text-color);

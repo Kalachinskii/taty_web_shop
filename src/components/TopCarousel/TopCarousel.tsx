@@ -13,7 +13,7 @@ export function TopCarousel() {
                         Оборудование и расходники <br /> для самых ярких
                         и качественных работ
                     </p>
-                    <Button>Смотреть каталог</Button>
+                    <Button apperant="big">Смотреть каталог</Button>
                 </div>
             </div>
         </div>

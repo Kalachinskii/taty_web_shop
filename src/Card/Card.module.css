@@ -1,0 +1,66 @@
+.cardBox {
+    width: 250px;
+    margin-top: 25px;
+    color: var(--text-color);
+    border: 1px solid var(--baground-button-color);
+    border-radius: 15px;
+    padding: 10px;
+    background: #0000002a;
+    backdrop-filter: invert(8%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hit {
+    padding: 5px 30px 5px 5px;
+    background-color: var(--baground-button-color);
+    color: var(--primary-hover-color);
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0% 100%, 0% 50%, 0% 0%);
+}
+
+.icon_like {
+    font-size: 28px;
+    color: var(--baground-button-color);
+}
+
+.icon_like:hover {
+    color: var(--primary-hover-color);
+    cursor: pointer;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_img {
+    /* border: 1px solid var(--baground-button-color); */
+    width: auto;
+    height: 180px;
+}
+
+.caruselBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product_box_info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.price {
+    font-size: 22px;
+    color: var(--primary-hover-color);
+}

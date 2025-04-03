@@ -1,12 +1,5 @@
-.container {
-    width: 100%;
-    background: var(--background-navbar-color);
-    /* background-color: var(--baground-navbar-color); */
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
-}
 .footer {
+    font-size: 18px;
     color: var(--text-color);
     width: 90%;
     display: flex;
