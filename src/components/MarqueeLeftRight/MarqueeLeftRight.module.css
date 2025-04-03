@@ -1,8 +1,9 @@
 .Marquee {
-    margin: 0px 0 0 0;
+    /* margin: 0px 0 0 0; */
     border-bottom: 1px solid var(--baground-button-color);
     width: 100%;
     overflow: hidden;
+    background-color: rgba(77, 71, 64, 0.178);
 }
 
 .box {
