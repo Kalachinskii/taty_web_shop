@@ -1,4 +1,4 @@
-import { Card } from "../../Card/Card";
+import { Card } from "../Card/Card";
 import styles from "./Trend.module.css";
 
 export function Trend() {
@@ -13,7 +13,13 @@ export function Trend() {
         <>
             <div className={styles.trandBox}>
                 {trendLink.map((link, id) => (
-                    <a key={id} className={styles.link} href="#">
+                    <a
+                        key={id}
+                        className={`${styles.link} ${
+                            id === 2 ? `${styles.active}` : ``
+                        }`}
+                        href="#"
+                    >
                         {link}
                     </a>
                 ))}
