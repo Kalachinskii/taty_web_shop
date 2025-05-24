@@ -1,6 +1,8 @@
 :root {
     --text-color-black: #000;
     --text-color: #ffffff;
+    --text-comment: #d0d0d0;
+    --background-comment: #050402;
     --primary-hover-color: #bb8c5f;
     --text-card-hover-color: #fd9f47;
     --baground-button-color: #524336;

@@ -1,0 +1,49 @@
+.reviews {
+    color: var(--text-comment);
+    border-top: 2px solid var(--primary-hover-color);
+    border-bottom: 2px solid var(--primary-hover-color);
+    max-width: 598px;
+    min-height: 307px;
+    display: flex;
+    flex-direction: column;
+    background: var(--background-comment);
+    margin-top: 5%;
+    position: relative;
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid var(--primary-hover-color);
+    position: absolute;
+    top: -17%;
+    left: 7%;
+}
+
+.text {
+    margin: 50px 50px 0 50px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.logoLink {
+    margin: 35px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.logoIcon {
+    padding: 5px;
+    border: 2px solid var(--primary-hover-color);
+}
+
+.logoName {
+    color: var(--primary-hover-color);
+    font-size: 22px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.logoName:hover {
+    color: var(--text-card-hover-color);
+}
