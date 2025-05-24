@@ -13,9 +13,13 @@ export function App() {
         <div className={styles.container}>
             <Header />
             <TopCarousel />
+
             <Trend />
 
-            <Reviews />
+            <div className={styles.comentBox}>
+                <Reviews />
+                <Reviews />
+            </div>
 
             <MarqueeRightLeft />
             <MarqueeLeftRight />

@@ -5,3 +5,9 @@
     flex-direction: column;
     align-items: center;
 }
+
+.comentBox {
+    margin-top: 150px;
+    display: flex;
+    gap: 20px;
+}
