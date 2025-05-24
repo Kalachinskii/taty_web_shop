@@ -1,5 +1,5 @@
 .Marquee {
-    margin: 150px 0 0 0;
+    margin: 50px 0 0 0;
     border-top: 1px solid var(--primary-hover-color);
     width: 100%;
     overflow: hidden;

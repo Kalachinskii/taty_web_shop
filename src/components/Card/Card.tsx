@@ -26,9 +26,6 @@ export function Card() {
                     <Button apperant={"small"}>Купить</Button>
                 </div>
             </div>
-            <div className={styles.openHitBox}>
-                <Button apperant={"small"}>Показать еще</Button>
-            </div>
         </>
     );
 }

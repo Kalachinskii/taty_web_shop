@@ -1,3 +1,4 @@
+import { About } from "../About/About";
 import { Catalog } from "../Catalog/Catalog";
 import { Footer } from "../Footer/Footer";
 import Header from "../Header/Header";
@@ -13,17 +14,18 @@ export function App() {
         <div className={styles.container}>
             <Header />
             <TopCarousel />
-
             <Trend />
 
+            <About />
+
+            <MarqueeRightLeft />
+            <MarqueeLeftRight />
+            <Catalog />
             <div className={styles.comentBox}>
                 <Reviews />
                 <Reviews />
             </div>
 
-            <MarqueeRightLeft />
-            <MarqueeLeftRight />
-            <Catalog />
             <Footer />
         </div>
     );

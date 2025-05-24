@@ -1,3 +1,4 @@
+import { Button } from "../Button/Button";
 import { Card } from "../Card/Card";
 import styles from "./Trend.module.css";
 
@@ -24,7 +25,14 @@ export function Trend() {
                     </a>
                 ))}
             </div>
-            <Card />
+            <div className={styles.cardBox}>
+                <Card />
+                <Card />
+                <Card />
+            </div>
+            <div className={styles.openHitBox}>
+                <Button apperant={"small"}>Показать еще</Button>
+            </div>
         </>
     );
 }
