@@ -1,10 +1,11 @@
 import { Button } from "../Button/Button";
 import { Card } from "../Card/Card";
-import styles from "./Trend.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination } from "swiper/modules";
+import "./swiper.css";
+import styles from "./Trend.module.css";
 
 export function Trend() {
     const trendLink = [
@@ -32,23 +33,56 @@ export function Trend() {
             <div className={styles.cardBox}>
                 <Swiper
                     modules={[Pagination]}
+                    // можно двигать курсором
                     grabCursor={true}
-                    initialSlide={2}
-                    centeredSlides={false} // Отключаем центрирование для равномерных отступов
+                    // начинать с карточки index
+                    initialSlide={1}
+                    // центрилизовать
+                    // centeredSlides={true}
+                    // растановка карточек
                     slidesPerView="auto"
-                    speed={1500}
+                    speed={100}
                     slideToClickedSlide={true}
-                    pagination={{ clickable: true }}
-                    spaceBetween={140} // Фиксированный отступ между всеми слайдами
-                    breakpoints={{
-                        320: { slidesPerView: 1.2 }, // Адаптация для мобильных
-                        768: { slidesPerView: 2.5 },
-                        1024: { slidesPerView: 3.5 },
+                    // двигать слайдер при фиксации между карточкой
+                    pagination={{
+                        clickable: true,
                     }}
-                    className={styles.swiper}
+                    // растояние между карточками
+                    breakpoints={{
+                        // Мобильные (горизонтальные/планшеты)
+                        480: {
+                            spaceBetween: 20,
+                            // slidesPerView: 1.5,
+                        },
+
+                        // Планшеты
+                        768: {
+                            spaceBetween: 24,
+                            // slidesPerView: 2.3,
+                        },
+
+                        // Ноутбуки
+                        1024: {
+                            spaceBetween: 32,
+                            // slidesPerView: 3.2,
+                        },
+
+                        // Большие экраны
+                        1440: {
+                            spaceBetween: 40,
+                            // slidesPerView: 4.3,
+                        },
+
+                        // Full HD+
+                        1920: {
+                            spaceBetween: 48,
+                            // растояние карточек
+                            slidesPerView: 4,
+                        },
+                    }}
                 >
-                    {[1, 2, 4].map((el, id) => (
-                        <SwiperSlide key={id} className={styles.slide}>
+                    {[1, 2, 3, 4, 5, 6].map((el, id) => (
+                        <SwiperSlide className={styles.swiperSlide} key={id}>
                             <Card />
                         </SwiperSlide>
                     ))}
