@@ -15,9 +15,7 @@ export function App() {
             <Header />
             <TopCarousel />
             <Trend />
-
             <About />
-
             <MarqueeRightLeft />
             <MarqueeLeftRight />
             <Catalog />
@@ -25,7 +23,6 @@ export function App() {
                 <Reviews />
                 <Reviews />
             </div>
-
             <Footer />
         </div>
     );
