@@ -1,13 +1,13 @@
-import { About } from "../About/About";
-import { Catalog } from "../Catalog/Catalog";
-import { Footer } from "../Footer/Footer";
-import Header from "../Header/Header";
-import Map from "../LeafletMap/LeafletMap";
-import { MarqueeLeftRight } from "../MarqueeLeftRight/MarqueeLeftRight";
-import { MarqueeRightLeft } from "../MarqueeRightLeft/MarqueeRightLeft";
-import Reviews from "../Reviews/Reviews";
-import { TopCarousel } from "../TopCarousel/TopCarousel";
-import { Trend } from "../Trend/Trend";
+import { About } from "../shared/ui/About/About";
+import { Catalog } from "../shared/ui/Catalog/Catalog";
+import { Footer } from "../shared/ui/Footer/Footer";
+import Header from "../shared/ui/Header/Header";
+import Map from "../shared/ui/LeafletMap/LeafletMap";
+import { MarqueeLeftRight } from "../shared/ui/MarqueeLeftRight/MarqueeLeftRight";
+import { MarqueeRightLeft } from "../shared/ui/MarqueeRightLeft/MarqueeRightLeft";
+import Reviews from "../shared/ui/Reviews/Reviews";
+import { TopCarousel } from "../shared/ui/TopCarousel/TopCarousel";
+import { Trend } from "../shared/ui/Trend/Trend";
 import styles from "./App.module.css";
 
 export function App() {

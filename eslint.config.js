@@ -23,12 +23,6 @@ export default tseslint.config(
                 "warn",
                 { allowConstantExport: true },
             ],
-            "import/no-unresolved": [
-                "error",
-                {
-                    ignore: ["^swiper/css", "^swiper/css/pagination"],
-                },
-            ],
         },
     }
 );
